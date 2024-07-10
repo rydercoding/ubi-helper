@@ -5,6 +5,7 @@ This tool can analyze the ubifs image file, which is dumped from the device or g
 
 ## How to build the code
 $ make clean
+
 $ make
 
 ## How to use the tool
