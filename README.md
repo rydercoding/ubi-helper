@@ -3,6 +3,8 @@ This tool can analyze the ubifs image file, which is dumped from the device or g
 1. Dump the superblock node, master node including their fileds. (More types of nodes dumpping can easily added in the code)
 2. Corrupt the ubifs image file. It's mostly used for constructing some special test cases by using some corrupted ubifs image.
 
+This tool can only be built and used on Linux platform.
+
 ## How to build the code
 $ make clean
 
