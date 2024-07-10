@@ -15,6 +15,9 @@ At this moment, the user has to customize the code and build the code, as some s
 - LEB_SIZE should be changed to the actual LEB block size. It's mostly the same size to the block size of the used NAND chip.
 
 To dump the ubifs file:
+
 $ ./uib-helper -d
+
 To corrupt the ubifs file:
+
 $ ./uib-helper -c
